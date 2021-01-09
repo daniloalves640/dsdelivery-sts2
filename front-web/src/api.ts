@@ -1,7 +1,7 @@
 //fazendo a requisição
 
 import axios from "axios";
-import { isFunctionExpression } from "typescript";
+
 import { OrderPayload } from "./Orders/types";
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
